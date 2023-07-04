@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>e2e_grocery_store</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>d09c1624-ff9e-43cf-82d8-99c4a67e56e6</testSuiteGuid>
+   <testCaseLink>
+      <guid>216d4f3b-7406-48e7-ad45-82f5cd8ba5b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/add one product to cart</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>101bf378-892c-452d-b987-324771b54a1f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User/UserData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>101bf378-892c-452d-b987-324771b54a1f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>98391521-b589-4309-9839-d0013b95f647</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>101bf378-892c-452d-b987-324771b54a1f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>6626ae43-ef60-4ba8-8a44-2f69c58c2227</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

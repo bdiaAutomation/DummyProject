@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add one product to cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ef91078-8e70-418f-8ba4-c586d8476de1</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>94ba65c9-614b-4970-a2c6-3a904fe9556e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/User/UserData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>94ba65c9-614b-4970-a2c6-3a904fe9556e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserName</value>
+      <variableId>98391521-b589-4309-9839-d0013b95f647</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>94ba65c9-614b-4970-a2c6-3a904fe9556e</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>6626ae43-ef60-4ba8-8a44-2f69c58c2227</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98391521-b589-4309-9839-d0013b95f647</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6626ae43-ef60-4ba8-8a44-2f69c58c2227</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+</TestCaseEntity>
